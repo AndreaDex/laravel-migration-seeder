@@ -13,6 +13,7 @@
         </div>
         <h2>{{$travel->country}}</h2>
         <h3>{{$travel->city}}</h3>
+        <a href="{{route('travels.show', $travel->id)}}">Dettagli viaggio</a>
     </div>
 
     @endforeach
