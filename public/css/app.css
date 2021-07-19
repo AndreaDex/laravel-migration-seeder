@@ -1,0 +1,74 @@
+/* COMMON */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  height: calc(100vh - 85px);
+}
+
+/* HEADER */
+
+nav {
+  padding: 30px;
+  background-color: #0640ff;
+  text-align: right;
+}
+
+nav a {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #e7d809;
+}
+
+/* FOOTER */
+
+#site_footer {
+  text-align: center;
+  background-color: #0640ff;
+  color: whitesmoke;
+}
+
+.landing {
+  background-image: url("https://www.aguaresort.it/nuovosito/wp-content/uploads/2016/07/beachagua.jpg");
+  background-size: cover;
+  height: calc(100vh - 85px);
+  text-align: center;
+}
+
+.landing h1 {
+  text-transform: capitalize;
+}
+
+.gallery {
+  background-image: url("https://images.photowall.com/products/60794/desert-sand-1.jpg?h=699&q=85");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .card {
+  margin: 20px;
+}
+

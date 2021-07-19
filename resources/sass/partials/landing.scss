@@ -1,0 +1,9 @@
+.landing {
+    background-image: url("https://www.aguaresort.it/nuovosito/wp-content/uploads/2016/07/beachagua.jpg");
+    background-size: cover;
+    height: calc(100vh - 85px);
+    text-align: center;
+    h1 {
+        text-transform: capitalize;
+    }
+}

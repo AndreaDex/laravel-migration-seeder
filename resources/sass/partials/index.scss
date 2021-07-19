@@ -1,0 +1,11 @@
+.gallery {
+    background-image: url("https://images.photowall.com/products/60794/desert-sand-1.jpg?h=699&q=85");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+        margin: 20px;
+    }
+}

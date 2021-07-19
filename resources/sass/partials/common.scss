@@ -1,0 +1,43 @@
+/* COMMON */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    height: calc(100vh - 85px);
+}
+
+/* HEADER */
+nav {
+    padding: 30px;
+    background-color: rgb(6, 64, 255);
+    text-align: right;
+    a {
+        color: #fff;
+        padding: 0 10px;
+        font-size: 18px;
+        font-weight: 600;
+        &:hover {
+            color: rgb(231, 216, 9);
+        }
+    }
+}
+
+/* FOOTER */
+#site_footer {
+    text-align: center;
+    background-color: rgb(6, 64, 255);
+    color: whitesmoke;
+}
